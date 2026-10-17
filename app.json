@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "EEMC",
+    "slug": "eemc-stock-analyzer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#14232E"
+    },
+    "android": {
+      "package": "com.eemc.stockanalyzer",
+      "versionCode": 1,
+      "permissions": ["INTERNET"],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#14232E"
+      }
+    }
+  }
+}
