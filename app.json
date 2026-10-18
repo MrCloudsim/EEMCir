@@ -14,10 +14,18 @@
     "android": {
       "package": "com.eemc.stockanalyzer",
       "versionCode": 1,
-      "permissions": ["INTERNET"],
+      "permissions": [
+        "INTERNET"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#14232E"
+      }
+    },
+    "owner": "eemc_ir",
+    "extra": {
+      "eas": {
+        "projectId": "7289278b-9f8b-4b01-a48a-378cf919a24e"
       }
     }
   }
